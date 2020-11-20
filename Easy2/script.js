@@ -15,13 +15,13 @@ function primeArr(arr) {
         }
    
      
-    //Test for Prime Number 
+    // Creates the new array
    
-    var newArr = [];  
+    let newArr = [];  
      
-    for(n=0; n<arr.length; n++){ 
-      if(isPrime(arr[n])){ 
-        newArr.push(arr[n]); 
+    for(let i=1; i <arr.length; i++){ 
+      if(isPrime(arr[i])){ 
+        newArr.push(arr[i]); 
       } 
     } 
      
