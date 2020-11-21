@@ -28,4 +28,5 @@ function primeArr(arr) {
     console.log(newArr); 
 } 
 
-primeArr([1,2,3,4,5,6,7,8,9,10])
+primeArr([1,2,3,4,5,6,7,8,9,10]);
+primeArr([10, 18, 19, 29, 33, 35, 47, 66, 83])
