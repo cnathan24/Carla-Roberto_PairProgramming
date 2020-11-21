@@ -1,5 +1,4 @@
-const a = 760;
-const b = 140;
+'use strict';
 
 
 function gdc_two_numbers (a,b) {
@@ -9,7 +8,8 @@ function gdc_two_numbers (a,b) {
             gcf = i;
         }
     }
-    return gcf;
+    console.log(gcf);
 }
 
-console.log(gdc_two_numbers(a,b));
+gdc_two_numbers(336,360);
+gdc_two_numbers(78,126);
